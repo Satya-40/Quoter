@@ -2,8 +2,8 @@
    background-color: #d05252;
    border-radius: 15px;
    margin-top: 15px;
-   margin-left: 25%;
-   margin-right: 25%;
+   margin-left: 25vw;
+   margin-right: 25vw;
    height: auto;
    display: flex;
    flex-direction: column;
@@ -21,3 +21,9 @@
    font-size: x-large
 }
 
+@media only screen and (max-width: 600px) {
+   .box{
+      width: 96vw;
+      margin-left: 2vw;
+   }
+ }

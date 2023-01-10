@@ -4,9 +4,11 @@
 }
 
 .box .drpdn{
-    width: 320px;
+    width: 35vw;
     height:50px;
-    margin: 25px 50px 50px 40.5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 32.5vw;
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -14,9 +16,9 @@
 }
 
 .box .but{
-    width: 160px;
+    width: 32vw;
     height:50px;
-    margin: 25px 50px 50px 45%;
+    margin: 25px 45% 50px 34vw;
     background-color: #009c51;
     color: white;
     border-radius: 25px;
@@ -40,3 +42,28 @@
     width:50px;
 
  }
+
+ .box .addbm .image:hover{
+    cursor:pointer
+ }
+
+ .box .addbm:active{
+    height: 120%;
+ }
+
+ @media only screen and (max-width: 600px) {
+
+    .box .drpdn{
+        width: 60vw;
+        margin-left: 20vw;
+        font-size: large;
+    }
+
+    .box .but{
+        width: 60vw;
+        margin-left:20vw ;
+        font-size: x-large;
+        padding: 2%;
+
+    }
+  }
