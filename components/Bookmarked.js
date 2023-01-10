@@ -10,7 +10,7 @@ const Bookmarked = () => {
 
   return (
     <Fragment>
-        {quoteList.map((item)=>{return <Card quote={item.content} author={item.author}/>})}
+        {quoteList.map((item)=>{return <div key={item._id}><Card quote={item.content} author={item.author}/></div>})}
     </Fragment>
   )
 }

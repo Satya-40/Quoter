@@ -21,7 +21,7 @@ const Quote = () => {
 
   useEffect(() => {
     getquote();
-  }, [counter]);
+  }, [counter,getquote]);
 
   const onAddBookmark = () => {
     dispatch({ type: add, input: quote });
