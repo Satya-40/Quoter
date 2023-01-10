@@ -1,0 +1,23 @@
+.box{
+   background-color: #d05252;
+   border-radius: 15px;
+   margin-top: 15px;
+   margin-left: 25%;
+   margin-right: 25%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+}
+
+.box .quote{
+   color: white;
+   font-size: xx-large
+}
+
+.box .author{
+   color: white;
+   margin: 50px 0  0 40%;
+   font-size: x-large
+}
+

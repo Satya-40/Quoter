@@ -1,0 +1,44 @@
+.Navbar{
+    background-color: #5129a6;
+    height: 5rem;
+}
+
+.Navbar button{
+    color: white;
+    font-size: x-large;
+    background-color: #5129a6;
+    border: 0px;
+    padding: 1.5rem;
+}
+
+.Navbar .bigButton{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    background-color: #5129a6;
+    border: 0px;
+    padding: 1.5rem;
+}
+
+.Navbar button:hover{
+    background-color: #6C757D
+}
+
+.Navbar .hbut{
+    color: white;
+    font-size: x-large;
+    background-color: #5129a6;
+    border: 0px;
+    padding: 1.5rem;
+}
+
+.Navbar  .bmButton{
+    color: white;
+    float: right;
+}
+
+.Navbar .bigbmButton{
+    color: white;
+    float: right;
+    font-size: xx-large;
+}
+

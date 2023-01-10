@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .drpdn{
+    width: 320px;
+    height:50px;
+    margin: 25px 50px 50px 40.5%;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.box .but{
+    width: 160px;
+    height:50px;
+    margin: 25px 50px 50px 45%;
+    background-color: #009c51;
+    color: white;
+    border-radius: 25px;
+    font-size: x-large;
+    border: 0px;
+}
+
+.box .addbm{
+    height: 10px;
+    width:10px;
+    float: inline-end;
+    margin-left: 90%;
+    margin-bottom: 30px;
+    color: rgba(240, 248, 255, 0);
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px;
+ }
+
+ .box .addbm .image{
+    height: 50px;
+    width:50px;
+
+ }
